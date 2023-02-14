@@ -1,0 +1,31 @@
+2023-02-13 03:02:54 INFO  EmployeesRestAPI:25 - ********** Started TC_03_Post_EmployeeRecord ***********
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:93 - ********* Checking Content_Type ************
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:96 - Content Type is ==> application/json
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:46 - ********* Checking Response Body ************
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:49 - Response Body ==> {"status":"success","data":{"name":"Johne","salary":"33354","age":"40","id":8206},"message":"Successfully! Record has been added."}
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:68 - ********* Checking Response Time ************
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:71 - Status Response Time is ==> 2360
+2023-02-13 03:03:03 WARN  EmployeesRestAPI:75 - Response Time grater than 2000
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:103 - ********* Checking Server Type ************
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:106 - Server Type is ==> Apache
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:58 - ********* Checking Status Code ************
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:61 - Status Code is ==> 200
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:83 - ********* Checking Status Line ************
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:86 - Status Line is ==> HTTP/1.1 200 OK
+2023-02-13 03:03:03 INFO  EmployeesRestAPI:113 - ********** Completed TC_03_Post_EmployeeRecord ************
+2023-02-14 12:31:37 INFO  EmployeesRestAPI:23 - ********** Started TC_02_Get_SingleEmployeeRecord ***********
+2023-02-14 13:54:15 INFO  EmployeesRestAPI:23 - ********** Started TC_02_Get_SingleEmployeeRecord ***********
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:79 - ********* Checking Content_Type ************
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:82 - Content Type is ==> application/json
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:33 - ********* Checking Response Body ************
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:36 - Response Body ==> {"status":"success","data":{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},"message":"Successfully! Record has been fetched."}
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:54 - ********* Checking Response Time ************
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:57 - Status Response Time is ==> 11715
+2023-02-14 13:54:33 WARN  EmployeesRestAPI:61 - Response Time grater than 2000
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:89 - ********* Checking Server Type ************
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:92 - Server Type is ==> nginx/1.21.6
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:44 - ********* Checking Status Code ************
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:47 - Status Code is ==> 200
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:69 - ********* Checking Status Line ************
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:72 - Status Line is ==> HTTP/1.1 200 OK
+2023-02-14 13:54:33 INFO  EmployeesRestAPI:99 - ********** Completed TC_02_Get_SingleEmployeeRecord ************
